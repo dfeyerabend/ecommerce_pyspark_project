@@ -21,7 +21,7 @@ Each project explores realistic e-commerce scenarios and produces polished busin
 
 Currently available:
 - PySpark E-commerce Business Report
-> https://dfeyerabend.github.io/ecommerce_pyspark_project/E-commerce_pyspark_report.html
+> https://dfeyerabend.github.io/bigdata_analyses_project/E-commerce_pyspark_report.html
 
 ---
 
