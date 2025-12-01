@@ -1,4 +1,4 @@
-# 📊 E-commerce Big Data Analysis with PySpark
+# 📊 Big Data Analyses Project
 
 This repository contains practice projects focused on large-scale data processing and analytical reporting using tools like PySpark, DuckDB, and Quarto.
 Each project explores realistic e-commerce scenarios and produces polished business reports (HTML/PDF).
