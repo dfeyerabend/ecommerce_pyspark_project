@@ -21,7 +21,7 @@ Each project explores realistic e-commerce scenarios and produces polished busin
 
 Currently available:
 - PySpark E-commerce Business Report
-> https://dfeyerabend.github.io/ecommerce_pyspark_project/E-commerce_business_report.html
+> https://dfeyerabend.github.io/ecommerce_pyspark_project/E-commerce_pyspark_report.html
 
 ---
 
@@ -33,9 +33,9 @@ pyspark_analyse/
 ├─ data/
 │  └─ generate_bigdata.py       # Script to generate the big data CSV (not tracked in git due to size)
 ├─ docs/
-│  └─ E-commerce_business_report.html    # Rendered HTML report (published via GitHub Pages)
+│  └─ E-commerce_pyspark_report.html    # Rendered HTML report (published via GitHub Pages)
 ├─ scripts/
-│  ├─ E-commerce_business_report.ipynb   # Main analysis & reporting notebook
+│  ├─ E-commerce_pyspark_report.ipynb   # Main analysis & reporting notebook
 ├─ themes/
 │  ├─ plot_arrakis_night_style.py        # Custom plotting style helper
 │  └─ quarto_arrakis-night.scss          # Custom Quarto theme (Arrakis Night based)
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 
 ## 📈 Quarto Report Generation
 
-The final HTML report is rendered with **[Quarto](https://quarto.org/)** from the notebook `scripts/E-commerce_business_report.ipynb`.
+The final HTML report is rendered with **[Quarto](https://quarto.org/)** from the notebook `scripts/E-commerce_pyspark_report.ipynb`.
 
 ### 1. Install Quarto
 
@@ -97,14 +97,14 @@ winget install quarto.quarto
 Once Quarto is installed and your Python environment is set up **and the data has been generated**:
 
 ```bash
-quarto render .\scripts\E-commerce_business_report.ipynb --to html --output-dir docs
+quarto render .\scripts\E-commerce_pyspark_report.ipynb --to html --output-dir docs
 ```
 
 This will:
 
 - Execute the notebook
 - Apply the custom `quarto_arrakis-night.scss` theme
-- Write/update `docs/E-commerce_business_report.html` (used by GitHub Pages)
+- Write/update `docs/E-commerce_pyspark_report.html` (used by GitHub Pages)
 - Store supporting assets in `scripts/E-commerce_business_report_files/`
 
 ---
@@ -126,6 +126,6 @@ If you want to reproduce or modify the analysis:
 2. Create and activate a Python virtual environment.
 3. Install Python dependencies: `pip install -r requirements.txt`.
 4. Generate the dataset: `python .\data\generate_bigdata.py`
-5. Install Quarto and render the report: `quarto render .\scripts\E-commerce_business_report.ipynb --to html --output-dir docs`.
+5. Install Quarto and render the report: `quarto render .\scripts\E-commerce_pyspark_report.ipynb --to html --output-dir docs`.
 
 Feel free to adapt the data generation, analysis logic, or theming for your own experiments or reports.
