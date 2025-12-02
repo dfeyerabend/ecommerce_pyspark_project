@@ -22,8 +22,9 @@ Each project explores realistic e-commerce scenarios and produces polished busin
 Currently available:
 - PySpark E-commerce Business Report
 > https://dfeyerabend.github.io/bigdata_analyses_project/E-commerce_pyspark_report.html
-> https://github.com/dfeyerabend/bigdata_analyses_project/blob/main/docs/pyspark_join_project.html
 ---
+- PySpark Business Report using segmentation and JOIN
+> https://github.com/dfeyerabend/bigdata_analyses_project/blob/main/docs/pyspark_join_project.html
 
 ## 🌳 Project Structure
 A quick overview of the repository layout and where each component lives:
