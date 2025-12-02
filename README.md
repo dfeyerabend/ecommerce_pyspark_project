@@ -24,7 +24,7 @@ Currently available:
 > https://dfeyerabend.github.io/bigdata_analyses_project/E-commerce_pyspark_report.html
 ---
 - PySpark Business Report using segmentation and JOIN
-> https://github.com/dfeyerabend/bigdata_analyses_project/blob/main/docs/pyspark_join_project.html
+> https://dfeyerabend.github.io/bigdata_analyses_project/pyspark_join_project.html
 
 ## 🌳 Project Structure
 A quick overview of the repository layout and where each component lives:
